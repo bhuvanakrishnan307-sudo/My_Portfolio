@@ -1,0 +1,67 @@
+.profile-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 300px;
+    margin: 40px auto;
+    margin-top: 200px auto;
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+    background-color: lightgrey;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+   .profile-headings
+   {
+   font-size: 2rem;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    margin: 5px 0;
+}
+.profile-img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid white;
+    margin-bottom: 10px;
+}
+
+.name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.bio {
+    font-size: 1.5rem;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    color:black;
+    margin-bottom: 10px;
+}
+
+
+.social-links {
+    padding-top: 10px;
+     size: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.social-btn {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    transition: background-color 0.3s;
+}
+
+.social-btn:hover {
+    background-color: gray;
+}
