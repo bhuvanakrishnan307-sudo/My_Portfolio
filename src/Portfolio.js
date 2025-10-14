@@ -1,19 +1,19 @@
 import React from 'react';
 import { FiMail, FiGithub, FiLinkedin, FiBook, FiBriefcase, FiAward, FiCode, FiCalendar, FiMapPin } from 'react-icons/fi';
-import { SiTailwindcss, SiReact, SiNodedotjs, SiDocker, SiGo, SiPython, SiMysql } from 'react-icons/si';
+import { SiTailwindcss, SiReact, SiNodedotjs,  SiPython, SiMysql, SiMongodb, SiExpress } from 'react-icons/si';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import './Portfolio.css'; // <-- Include your CSS file
+import './Portfolio.css';
 
 const GITHUB_LINK = 'https://github.com/bhuvanakrishnan307-sudo';
-const LINKEDIN_LINK = '#'; // Add your LinkedIn URL
+const LINKEDIN_LINK = 'https://www.linkedin.com/in/bhuvaneswari-krishnan-0963b3284?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'; 
 const CONTACT_EMAIL = 'bhuvanakrishnan307@gmail.com';
 
 const skills = [
   { name: 'React.js', icon: <SiReact /> },
   { name: 'Node.js', icon: <SiNodedotjs /> },
-  { name: 'Docker', icon: <SiDocker /> },
-  { name: 'Golang', icon: <SiGo /> },
+  { name: 'Express.js', icon: <SiExpress /> },
+  { name: 'MongoDB', icon: <SiMongodb /> },
   { name: 'Tailwind CSS', icon: <SiTailwindcss /> },
   { name: 'Python', icon: <SiPython /> },
   { name: 'MySQL', icon: <SiMysql /> },
