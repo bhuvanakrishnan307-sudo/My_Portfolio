@@ -72,7 +72,6 @@ export default function Portfolio() {
   );
 }
 
-// ---------------- Components ---------------- //
 
 function Header() {
   return (
@@ -83,7 +82,7 @@ function Header() {
           animate={{ y: 0, opacity: 1 }}
           transition={{ type: 'spring', stiffness: 90 }}
         >
-          Bhuvana.dev
+          Bhuvana Krishnan
         </motion.h1>
 
         <motion.div
@@ -121,7 +120,7 @@ function AnimatedSection({ children, id }) {
   );
 }
 
-// ---------------- Section Components ---------------- //
+
 
 function ProfileSection() {
   return (
@@ -139,7 +138,7 @@ function ProfileSection() {
       </div>
 
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: '16px' }}>
-        <InfoItem icon={<FiMapPin />} title="Location" value="Virudhunagar, Tamil Nadu – 626001" />
+        <InfoItem icon={<FiMapPin />} title="Location" value="Banglore, Karnataka, 560016" />
         <InfoItem icon={<FiMail />} title="Email" value={CONTACT_EMAIL} />
         <InfoItem icon={<FiCalendar />} title="Phone" value="93602 70077" />
       </div>
